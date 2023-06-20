@@ -44,10 +44,15 @@ resource "aws_lb_target_group_attachment" "example_target_group_attachment" {
 Replace the placeholder values:
 
 Replace our_aws_region with the AWS region where we want to create the ALB (e.g., us-west-2).
+
 Replace our_security_group_id with the ID of the security group we want to associate with the ALB.
+
 Replace our_subnet_ids with the IDs of the subnets where we want to deploy the ALB.
+
 Replace our_vpc_id with the ID of the VPC where the ALB will be deployed.
+
 Replace our_instance_id with the ID of the instance we want to attach to the ALB.
+
 Save the main.tf file.
 
 ## Step 3:Open a terminal or command prompt, navigate to the directory containing the main.tf file, and run the following commands:
