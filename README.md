@@ -57,11 +57,13 @@ Save the main.tf file.
 
 ## Step 3:Open a terminal or command prompt, navigate to the directory containing the main.tf file, and run the following commands:
 
-bash
-Copy code
+
 terraform init
+
 terraform plan
+
 terraform apply
+
 Terraform will initialize, show us the execution plan, and prompt for confirmation. Review the plan and type yes to proceed.
 
 ## Step 4:Wait for Terraform to create the ALB and attach the target instance. Once the process is complete, Terraform will display the output, including the ALB URL.
